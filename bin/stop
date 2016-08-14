@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/pkill -f /home/ssngeek/webapps/shrinidhi_website/bin/node && rm -f /home/ssngeek/webapps/shrinidhi_website/run/node.pid

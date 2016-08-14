@@ -1,0 +1,5 @@
+#!/bin/sh
+/sbin/pidof /home/ssngeek/webapps/shrinidhi_website/bin/node > /dev/null 2>&1 && exit 0
+mkdir -p /home/ssngeek/webapps/shrinidhi_website/run
+nohup /home/ssngeek/webapps/shrinidhi_website/bin/node /home/ssngeek/webapps/shrinidhi_website/hello-world.js > /dev/null 2>&1 &
+/sbin/pidof /home/ssngeek/webapps/shrinidhi_website/bin/node > /home/ssngeek/webapps/shrinidhi_website/run/node.pid
