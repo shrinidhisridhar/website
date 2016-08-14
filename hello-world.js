@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 app.get('/', function (req, res) {
-  res.send('<img src="/public/hello_world.gif"/>');
+  res.send('<img src="/static/helloworld.gif"/>');
 });
 
 app.listen(19921, function () {
