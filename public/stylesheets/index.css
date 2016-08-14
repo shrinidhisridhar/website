@@ -1,0 +1,22 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #350707;
+}
+
+.name {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A28F48;
+    text-shadow: 2px 2px #000000;
+}
